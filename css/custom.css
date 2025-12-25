@@ -1,0 +1,66 @@
+/* Custom styles for Bootstrap 5 */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: white;
+  background-image: url('../img/SIMIS.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+/* Navbar styles */
+.navbar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+}
+
+.navbar .container-fluid {
+  flex: 1;
+}
+
+.navbar-brand-container {
+  flex: 1;
+  text-align: center;
+  padding-left: 60px; /* Even more space on left */
+}
+
+.navbar-nav-container {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar-spacer {
+  flex: 1;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.6em;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: rgb(30, 75, 132) !important;
+}
+
+.navbar .nav-link {
+  color: rgb(30, 75, 132) !important;
+  font-weight: bold;
+  font-size: 1.4em;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Hover effects for nav links */
+.nav-link:hover {
+  color: rgb(197, 157, 80) !important; /* Golden brown */
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+/* Container margin */
+.container {
+  margin-top: 1in;
+}
