@@ -45,8 +45,8 @@
 </script>
 
 <section class="container">
-  <div class="bg-pill rounded-3 d-inline-block px-4 py-2 mb-4">
-    <h4 class="display-4 mb-0">{@html titleHtml}</h4>
+  <div class="mb-4">
+    <h4 class="display-4 mb-0 text-shadow-yellow">{@html titleHtml}</h4>
   </div>
   <div class="bg-pill p-4 rounded-3 mt-4">
     <dl class="row">

@@ -10,7 +10,6 @@
   const routeToFile = {
     '/speakers': '/content/speakers.md',
     '/schedule': '/content/schedule.md',
-    '/program': '/content/program.md',
     '/information': '/content/information.md',
     '/visa': '/content/visa.md',
     '/registration': '/content/registration.md'
@@ -18,6 +17,8 @@
 
   let html = '<p>Loading...</p>'
   let article;
+  let isIframe = false;
+  let iframeLoaded = false;
 
   $: path = $location || '/'
 
@@ -31,8 +32,16 @@
     }
   }
 
+  // Helper to extract src from iframe HTML string
+  function getIframeSrc(html) {
+    const match = html.match(/src=["']([^"']+)["']/i)
+    return match ? match[1] : ''
+  }
+
   async function loadForPath(p) {
     const file = routeToFile[p]
+    isIframe = false;
+    iframeLoaded = false;
     if (!file) {
       html = '<p>Not found</p>'
       return
@@ -45,6 +54,7 @@
     // Check if the content is just an iframe (with optional whitespace)
     const iframeMatch = md.trim().match(/^<iframe[\s\S]*<\/iframe>$/i)
     if (iframeMatch && md.trim().replace(/\n/g, '').replace(/\s+/g, ' ').startsWith('<iframe')) {
+      isIframe = true;
       html = md.trim()
     } else {
       html = marked.parse(md)
@@ -56,8 +66,29 @@
 
 <section class="container mt-4">
   <div class="">
-    <article class="markdown-body" bind:this={article}>
-      {@html html}
-    </article>
+    {#if isIframe}
+      {#if !iframeLoaded}
+        <div class="progress my-3" style="height: 6px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+        </div>
+      {/if}
+      <article class="markdown-body" bind:this={article}>
+        <iframe
+          src={getIframeSrc(html)}
+          width="640"
+          height="1154"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          style="width:100%;min-height:600px;"
+          on:load={() => { iframeLoaded = true; }}
+          title="Registration form"
+        >Loading…</iframe>
+      </article>
+    {:else}
+      <article class="markdown-body" bind:this={article}>
+        {@html html}
+      </article>
+    {/if}
   </div>
 </section>

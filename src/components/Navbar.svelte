@@ -5,7 +5,6 @@
     { path: '/', label: 'Home' },
     { path: '/speakers', label: 'Speakers' },
     { path: '/schedule', label: 'Schedule' },
-    { path: '/program', label: 'Program' },
     { path: '/information', label: 'Information' },
     { path: '/visa', label: 'Visa' },
     { path: '/registration', label: 'Registration' }

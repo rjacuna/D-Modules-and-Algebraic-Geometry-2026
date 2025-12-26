@@ -8,7 +8,6 @@
     '/': Home,
     '/speakers': Page,
     '/schedule': Page,
-    '/program': Page,
     '/information': Page,
     '/visa': Page,
     '/registration': Page
