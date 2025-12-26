@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
 $font-family-base: 'Inter';//, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-$body-color: rgb(255, 255, 255);
+$body-color: rgb(30, 75, 132);
 $headings-font-weight: 700;
 
 // Navbar-specific Bootstrap variables
@@ -25,6 +25,55 @@ $navbar-light-brand-hover-color: rgb(30, 75, 132);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // 4. Custom styles that CANNOT be done with Bootstrap variables
+// Accent color utilities (Bootstrap-idiomatic)
+:root {
+  --bs-accent-rgb: 197, 157, 80; // brand accent rgb
+  --bs-accent: rgb(var(--bs-accent-rgb));
+  --bs-accent-yellow-rgb: 255, 220, 0; /* bright yellow for text shadow */
+}
+
+/*
+  Use in markup with Bootstrap utilities, e.g.
+  <div class="bg-accent p-4 rounded">...</div>
+*/
+.bg-accent {
+  background-color: rgba(var(--bs-accent-rgb), 0.12) !important; /* subtle */
+}
+.bg-accent-strong {
+  background-color: rgba(var(--bs-accent-rgb), 0.22) !important; /* stronger */
+}
+
+/* Bright yellow text-shadow utility (Bootstrap-idiomatic) */
+.text-shadow-yellow {
+  text-shadow: 0 0.2rem 0.6rem rgba(var(--bs-accent-yellow-rgb), 0.95), 0 0.05rem 0.15rem rgba(0, 0, 0, 0.2);
+}
+
+/* White solid bounding box utility (Bootstrap-idiomatic)
+   Use as: <div class="text-box">...</div> */
+.text-box {
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: .375rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.02); /* subtle background for legibility */
+  color: var(--bs-body-color);
+}
+
+/* Bootstrap-idiomatic white pill utility (solid white, no transparency) */
+.bg-pill-white {
+  background-color: #fff !important;
+  color: rgb(30, 75, 132); /* ensure readable brand-colored text inside */
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Bootstrap-idiomatic pill utility: white background at 75% opacity + blur, no border */
+.bg-pill {
+  background-color: rgba(255,255,255,0.75) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: none !important;
+  color: rgb(30, 75, 132);
+}
+
 body {
   background-image: url('../img/SIMIS.jpg');
   background-size: cover;
@@ -71,6 +120,8 @@ body {
 
   .navbar-brand {
     font-weight: bold;
+    /* Keep the yellow glow you liked */
+    text-shadow: 0 0 8px #ffd700;
   }
 }
 

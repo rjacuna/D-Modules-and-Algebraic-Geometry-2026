@@ -2,6 +2,8 @@
 </script>
 
 <section class="container mt-4">
-  <h1>Information</h1>
-  <p>TBA</p>
+  <div class="bg-pill p-4 rounded-3">
+    <h1>Information</h1>
+    <p>TBA</p>
+  </div>
 </section>
