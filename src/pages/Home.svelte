@@ -2,20 +2,41 @@
   import { onMount, onDestroy } from 'svelte'
   import { marked } from 'marked'
 
-  import titleMd from '/content/title.md?raw'
-  import organizersMd from '/content/organizers.md?raw'
-  import datesMd from '/content/dates.md?raw'
-  import locationMd from '/content/location.md?raw'
-  import descriptionMd from '/content/description.md?raw'
+  // Disable deprecated marked behaviors used elsewhere (silences warnings)
+  marked.setOptions({ mangle: false, headerIds: false })
 
-  let titleHtml = marked.parse(titleMd)
-  let organizersHtml = marked.parse(organizersMd)
-  let datesHtml = marked.parse(datesMd)
-  let locationHtml = marked.parse(locationMd)
-  let descriptionHtml = marked.parse(descriptionMd)
+  let titleHtml = ''
+  let organizersHtml = ''
+  let datesHtml = ''
+  let locationHtml = ''
+  let descriptionHtml = ''
 
-  onMount(() => {
+  async function fetchMd(path) {
+    try {
+      const res = await fetch(path)
+      if (!res.ok) return null
+      return await res.text()
+    } catch (err) {
+      return null
+    }
+  }
+
+  onMount(async () => {
     document.body.classList.add('home-bg')
+
+    const [titleMd, organizersMd, datesMd, locationMd, descriptionMd] = await Promise.all([
+      fetchMd('/content/title.md'),
+      fetchMd('/content/organizers.md'),
+      fetchMd('/content/dates.md'),
+      fetchMd('/content/location.md'),
+      fetchMd('/content/description.md')
+    ])
+
+    titleHtml = titleMd ? marked.parse(titleMd) : ''
+    organizersHtml = organizersMd ? marked.parse(organizersMd) : ''
+    datesHtml = datesMd ? marked.parse(datesMd) : ''
+    locationHtml = locationMd ? marked.parse(locationMd) : ''
+    descriptionHtml = descriptionMd ? marked.parse(descriptionMd) : ''
   })
 
   onDestroy(() => {

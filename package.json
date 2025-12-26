@@ -24,7 +24,8 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "svelte": "^3.59.0",
-    "svelte-spa-router": "^3.0.0"
+    "svelte-spa-router": "^3.0.0",
+    "marked": "^5.1.0"
   },
   "devDependencies": {
     "vite": "^5.0.0",
