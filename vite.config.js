@@ -5,5 +5,13 @@ export default defineConfig({
   plugins: [svelte()],
   server: {
     open: false
+  },
+  build: {
+    outDir: '.',
+    emptyOutDir: false,
+    assetsDir: 'assets',
+    rollupOptions: {
+      input: './index.html'
+    }
   }
 })
