@@ -7,8 +7,8 @@ export default defineConfig({
     open: false
   },
   build: {
-    outDir: '.',
-    emptyOutDir: false,
+    outDir: 'docs',
+    emptyOutDir: true,
     assetsDir: 'assets',
     rollupOptions: {
       input: './index.html'
