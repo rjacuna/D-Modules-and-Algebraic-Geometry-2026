@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Le styles (using locally compiled Bootstrap + custom) -->
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -19,71 +18,9 @@
   </head>
 
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid d-flex">
-        <div class="navbar-brand-container">
-          <a class="navbar-brand" href="index.html">D-Modules 2026</a>
-        </div>
-        <div class="navbar-nav-container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="speakers.html">Speakers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="schedule.html">Schedule</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="program.html">Program</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="information.html">Information</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="visa.html">Visa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="registration.html">Registration</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="navbar-spacer"></div>
-      </div>
-    </nav>
-
-    <div class="container">
-
-      <h1 style="margin-bottom: 100px;">D-Modules and Algebraic Geometry Workshop 2026</h1>
-      <dl class="row">
-
-        <dt class="col-sm-3">Organizers</dt>
-        <dd class="col-sm-9">RJ Acuña, Thomas Bitoun, and Mingyi Zhang</dd>
-
-        <dt class="col-sm-3">Dates</dt>
-        <dd class="col-sm-9">June 1–5, 2026</dd>
-
-        <dt class="col-sm-3">Location</dt>
-        <dd class="col-sm-9">Shanghai Institute for Mathematics and Interdisciplinary Sciences (<a href="https://www.simis.cn">www.simis.cn</a>)</dd>
-
-        <dt class="col-sm-3">Description</dt>
-        <dd class="col-sm-9">This workshop brings together leading international researchers to discuss recent advances in applications of D-module theory to algebraic geometry, with a focus on singular support. Our aim is to take stock of the state of the art and foster an intimate, collaborative environment with ample time for informal discussions and new research directions.</dd>
-      </dl>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="js/custom.js"></script>
-
+    <!-- SPA entry: compiled CSS includes Bootstrap + custom -->
+    <link href="css/custom.css" rel="stylesheet">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

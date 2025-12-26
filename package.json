@@ -1,0 +1,33 @@
+{
+  "name": "d-modules-and-algebraic-geometry-2026",
+  "version": "1.0.0",
+  "description": "Website for the D-Modules and algebraic geometry workshop 2026",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:scss": "sass --silence-deprecation=import --silence-deprecation=global-builtin --silence-deprecation=color-functions scss/custom.scss css/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjacuna/D-Modules-and-Algebraic-Geometry-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rjacuna/D-Modules-and-Algebraic-Geometry-2026/issues"
+  },
+  "homepage": "https://github.com/rjacuna/D-Modules-and-Algebraic-Geometry-2026#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "svelte": "^3.59.0",
+    "svelte-spa-router": "^3.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@sveltejs/vite-plugin-svelte": "^2.0.0"
+  }
+}

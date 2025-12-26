@@ -1,0 +1,84 @@
+// scss/custom.scss
+
+// 1. Include functions first
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Override Bootstrap variables BEFORE importing variables
+$font-family-base: 'Helvetica Neue', Arial, sans-serif;
+$body-color: rgb(255, 255, 255);
+$headings-font-weight: 700;
+
+// Navbar-specific Bootstrap variables
+$navbar-brand-font-size: 1.6rem;
+$navbar-light-color: rgb(30, 75, 132);
+$navbar-light-hover-color: rgb(197, 157, 80);
+$navbar-light-active-color: rgb(30, 75, 132);
+$navbar-light-brand-color: rgb(30, 75, 132);
+$navbar-light-brand-hover-color: rgb(30, 75, 132);
+// 3. Include remainder of Bootstrap
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// 4. Custom styles that CANNOT be done with Bootstrap variables
+body {
+  background-image: url('../img/SIMIS.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+
+  &.navbar-light {
+    /* Explicitly set Bootstrap CSS variables for light navbar theme */
+    --bs-navbar-color: rgb(30, 75, 132);
+    --bs-navbar-hover-color: rgb(197, 157, 80);
+    --bs-navbar-active-color: rgb(30, 75, 132);
+    --bs-navbar-brand-color: rgb(30, 75, 132);
+    --bs-navbar-brand-hover-color: rgb(30, 75, 132);
+    --bs-navbar-toggler-border-color: rgba(30, 75, 132, 0.1);
+    /* Toggler icon SVG with brand color (#1E4B84) */
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%231E4B84' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .container-fluid {
+    flex: 1;
+  }
+
+  .nav-link {
+    font-weight: bold;
+    font-size: 1.4em;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+}
+
+.navbar-brand-container {
+  flex: 1;
+  text-align: center;
+  padding-left: 60px;
+}
+
+.navbar-nav-container {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar-spacer {
+  flex: 1;
+}
+
+.container {
+  margin-top: 1in;
+}
