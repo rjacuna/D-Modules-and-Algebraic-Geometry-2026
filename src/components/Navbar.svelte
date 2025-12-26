@@ -13,11 +13,13 @@
 
   $: current = $location || '/'
   const isActive = (p) => p === current
+
+
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
   <div class="container-fluid">
-    <a class="navbar-brand ms-5" href="#/">D-Modules 2026</a>
+    <a class="navbar-brand ms-5 text-shadow-yellow" href="#/">D-Modules 2026</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,8 +45,16 @@
   .navbar {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
-  .navbar .nav-link { font-weight: 700; }
+  .navbar .nav-link { font-weight: 700; transition: color .15s ease; }
   .navbar .nav-link.active { color: var(--bs-navbar-active-color); }
-  /* Ensure brand appears neatly on the right */
+
+  /* Ensure hover shows hover color even for active link */
+  /* More specific selectors to ensure hover wins over compiled Bootstrap rules */
+  :global(.navbar .navbar-nav .nav-link:hover),
+  :global(.navbar .navbar-nav .nav-link.active:hover) {
+    color: var(--bs-navbar-hover-color);
+  }
+
+  /* Ensure brand appears neatly on the left */
   .navbar .navbar-brand { margin-left: .5rem; }
 </style>

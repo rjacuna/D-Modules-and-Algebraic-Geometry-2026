@@ -11902,7 +11902,7 @@ textarea.form-control-lg {
 
 /* Bootstrap-idiomatic pill utility: white background at 75% opacity + blur, no border */
 .bg-pill {
-  background-color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(255, 255, 255, 0.69) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: none !important;

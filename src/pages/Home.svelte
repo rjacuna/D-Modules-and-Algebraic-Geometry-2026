@@ -3,7 +3,7 @@
 
 <section class="container">
   <div class="bg-pill rounded-3 d-inline-block px-4 py-2 mb-4">
-    <h1 class="display-4 mb-0">D-Modules and Algebraic Geometry Workshop 2026</h1>
+    <h4 class="display-4 mb-0">D-Modules and Algebraic Geometry Workshop 2026</h4>
   </div>
   <div class="bg-pill p-4 rounded-3 mt-4">
     <dl class="row">
