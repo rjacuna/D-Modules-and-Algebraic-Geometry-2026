@@ -1,4 +1,13 @@
 <script>
+  import { onMount, onDestroy } from 'svelte'
+
+  onMount(() => {
+    document.body.classList.add('home-bg')
+  })
+
+  onDestroy(() => {
+    document.body.classList.remove('home-bg')
+  })
 </script>
 
 <section class="container">

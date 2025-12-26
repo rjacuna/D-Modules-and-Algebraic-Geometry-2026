@@ -74,7 +74,9 @@ $navbar-light-brand-hover-color: rgb(30, 75, 132);
   color: rgb(30, 75, 132);
 }
 
-body {
+/* Background moved from global body to a home-only class
+   so other pages stay background-transparent unless wrapped. */
+.home-bg {
   background-image: url('../img/SIMIS.jpg');
   background-size: cover;
   background-repeat: no-repeat;
