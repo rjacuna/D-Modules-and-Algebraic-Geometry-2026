@@ -4,7 +4,11 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Override Bootstrap variables BEFORE importing variables
-$font-family-base: 'Helvetica Neue', Arial, sans-serif;
+// Load Inter from Google Fonts (fast and widely hosted). If you prefer
+// self-hosting, replace this with local @font-face declaration.
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+$font-family-base: 'Inter';//, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $body-color: rgb(255, 255, 255);
 $headings-font-weight: 700;
 
@@ -54,8 +58,14 @@ body {
     transition: all 0.3s ease;
 
     &:hover {
+      color: var(--bs-navbar-hover-color);
       transform: scale(1.05);
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &.active:hover {
+      /* ensure active link also responds to hover */
+      color: var(--bs-navbar-hover-color);
     }
   }
 
