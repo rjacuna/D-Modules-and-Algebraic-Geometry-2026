@@ -1,5 +1,3 @@
-# Speakers
-
 ## Tentative Speakers
 
 - Vasily Golyshev
