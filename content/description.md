@@ -1,1 +1,1 @@
-This workshop brings together leading international researchers to discuss recent advances in applications of D-module theory to algebraic geometry, with a focus on singular support.
+This workshop brings together leading international researchers to discuss recent applications of D-module theory to algebraic geometry. The goal is to create an intimate and collaborative environment, fostering informal discussions and new research directions.
