@@ -1,1 +1,1 @@
-Room 710 Shanghai Institute for Mathematics and Interdisciplinary Sciences ([SIMIS](https://www.simis.cn))
+Room 710 at [SIMIS](https://www.simis.cn)
