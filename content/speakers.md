@@ -2,9 +2,9 @@
 
 - Vasily Golyshev
 - Matt Kerr
+- Bruno Klinger
 - Radu Laza
 - Claude Sabbah
 - Boris Tsygan
-- Rujie Yang
 
 More to be confirmed
