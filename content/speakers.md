@@ -4,6 +4,7 @@
 - Matt Kerr
 - Bruno Klinger
 - Radu Laza
+- Takuro Mochizuki
 - Claude Sabbah
 - Boris Tsygan
 
