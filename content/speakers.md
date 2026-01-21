@@ -7,6 +7,7 @@
 - Radu Laza
 - Takuro Mochizuki
 - Claude Sabbah
+- Christian Schnell
 - Boris Tsygan 
 
 More to be confirmed
