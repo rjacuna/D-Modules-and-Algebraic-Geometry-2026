@@ -1,5 +1,6 @@
 ## Tentative Speakers
 
+- Wanchun (Rosie) Chen
 - Vasily Golyshev
 - Matt Kerr
 - Bruno Klinger
