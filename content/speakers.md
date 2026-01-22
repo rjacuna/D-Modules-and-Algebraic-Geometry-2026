@@ -1,6 +1,6 @@
 ## Tentative Speakers
 
-- Wanchun (Rosie) Shen
+
 - Vasily Golyshev
 - Matt Kerr
 - Bruno Klinger
@@ -9,6 +9,7 @@
 - Takuro Mochizuki
 - Claude Sabbah
 - Christian Schnell
+- Wanchun (Rosie) Shen
 - Boris Tsygan 
 
 More to be confirmed
