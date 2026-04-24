@@ -11,17 +11,9 @@ Simply speaking, for the citizens from 54 countries mentioned in the policy, if 
 
 If you are a citizen from one of the following 38 countries, you can enter China without a visa for up to 30 days:
 
-France, Germany, Italy, Netherlands, Spain, Malaysia, Switzerland, Ireland, Hungary, Austria, Belgium, Luxembourg, Australia, New Zealand, Poland, Denmark, Portugal, Greece, Cyprus, Slovenia, South Korea, Finland, Slovakia, Monaco, Andorra, Liechtenstein, Denmark, Norway, Iceland, Bulgaria, Romania, Croatia, Montenegro, Northern Macedonia, Malta, Estonia, Latvia, Japan.
+France, Germany, Italy, Netherlands, Spain, Switzerland, Ireland, Hungary, Austria, Belgium, Luxembourg, Australia, New Zealand, Poland, Portugal, Greece, Cyprus, Slovenia, Slovakia, Norway, Finland, Denmark, Iceland, Monaco, Liechtenstein, Andorra, South Korea, Bulgaria, Romania, Croatia, Montenegro, Northern Macedonia, Malta, Estonia, Latvia, Japan, Brazil, Argentina, Chile, Peru, Uruguay, Saudi Arabia, Oman, Kuwait, Bahrain
 
-The policy is currently in effect until December 31, 2025, and we will closely monitor subsequent changes.
-
-Update: Add 5 countries
-
-Brazil, Argentina, Chile, Peru, Uruguay（June 1, 2025 - May 31, 2026）
-
-Update: Add 4 countries
-
-Saudi Arabia, Oman, Kuwait, Bahrain（June 9, 2025 - June 8, 2026）
+The policy is currently in effect until December 31, 2026, and we will closely monitor subsequent changes.
 
 Update: Add 1 countries
 
