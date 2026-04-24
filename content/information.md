@@ -41,14 +41,14 @@ SIMIS visa letters: Contact Michael Fang (fangtianyue@simis.cn), CC your SIMIS h
 
 ## Connectivity (SIM cards)
 
-A local Chinese SIM card (+86 number) is strongly recommended for SMS verification (ride-hailing, delivery, metro apps).
+A local Chinese SIM card (+86 number) is recommended for SMS verification (ride-hailing, delivery, metro apps).
 
 Where at PVG: China Telecom, T1 near Gate 11 (07:00–22:00). Passport required; English spoken.
 
 International roaming: Works for basic data, not for local app SMS verifications.
 
 ## Payments (Alipay/WeChat Pay—cashless daily life)
-Set up in advance: Detailed guide at https://swoa2025.simis.cn/tips
+Set up in advance: Detailed guide at [https://swoa2025.simis.cn/tips](https://www.simis.cn/sub/swoa2026/tips.html)
 
 ID verification: May require passport selfie in-app upon arrival in China.
 
@@ -72,14 +72,12 @@ WeChat: Enable via Me → Settings → General → Translation.
 Alipay: International version includes integrated translation tools.
 
 ## Power, Time & Weather Essentials
-Electricity: 220 V. Sockets accept US/EU two-pin plugs; slim adapter recommended for grounded plugs.
+Electricity: 220 V. Sockets accept US/EU two-pin plugs; slim adapter might be needed for grounded plugs.
 
 Time zone: UTC+8 (no daylight saving).
 
-Weather: average is 8–18°C, but could be extreme for -1-33°C according the history data of recent 3 years.
+Weather: average is 22–29°C, but could be extreme for 16-38°C according the history data of recent 3 years.
 
 Emergencies: Police 110 • Fire 119 • Ambulance 120
 
-## A personal note from Thomas:
-This guide aims to help international visitors in general. For suggestions about additional useful information, please email me at thomas@simis.cn. For workshop-specific details (e.g., exact room number, schedule), refer to the workshop website or the body of the invitation email.
 
