@@ -16,8 +16,6 @@ Metro: Line 10 → Sanmen Road (三门路), ~200 m walk
 
 Map pin: https://omaps.app/42bSUlYp_y
 
-Detailed transport: https://swoa2025.simis.cn/transportation
-
 ## On-site at SIMIS
 
 Visitor office & building entry: Your host will guide you upon arrival.
