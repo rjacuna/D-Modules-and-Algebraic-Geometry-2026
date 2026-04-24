@@ -26,3 +26,7 @@ Saudi Arabia, Oman, Kuwait, Bahrain（June 9, 2025 - June 8, 2026）
 Update: Add 1 countries
 
 Russia（September 15, 2025 - September 14, 2026）
+
+Update: Add 2 countries
+
+Canada, England (Feburary 17, 2026 - December 31, 2026)
