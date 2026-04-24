@@ -48,7 +48,7 @@ Where at PVG: China Telecom, T1 near Gate 11 (07:00–22:00). Passport required;
 International roaming: Works for basic data, not for local app SMS verifications.
 
 ## Payments (Alipay/WeChat Pay—cashless daily life)
-Set up in advance: Detailed guide at https://www.simis.cn/sub/swoa2026/tips.html)
+Set up in advance: Detailed guide at https://www.simis.cn/sub/swoa2026/tips.html
 
 ID verification: May require passport selfie in-app upon arrival in China.
 
