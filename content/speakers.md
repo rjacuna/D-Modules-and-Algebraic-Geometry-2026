@@ -6,7 +6,6 @@
 - Bruno Klinger
 - Thomas Kraemer
 - Radu Laza
-- Takuro Mochizuki
 - Claude Sabbah
 - Christian Schnell
 - Wanchun (Rosie) Shen
