@@ -4,7 +4,6 @@
 - Vasily Golyshev
 - Matt Kerr
 - Bruno Klinger
-- Thomas Kraemer
 - Radu Laza
 - Claude Sabbah
 - Christian Schnell
