@@ -8,6 +8,7 @@
 - Claude Sabbah
 - Christian Schnell
 - Wanchun (Rosie) Shen
-- Boris Tsygan 
+- Boris Tsygan
+- Guido Bosco
 
 More to be confirmed
