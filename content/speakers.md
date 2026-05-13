@@ -1,7 +1,5 @@
 ## Tentative Speakers
 
-
-- Vasily Golyshev
 - Matt Kerr
 - Bruno Klinger
 - Radu Laza
