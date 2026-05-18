@@ -1,7 +1,5 @@
 # Program
 
-Program details are coming soon.
-
 # Matt Kerr
 
 Title: **Interpolating regulators, from Dirichlet to Beilinson**
