@@ -7,6 +7,7 @@
   const routes = {
     '/': Home,
     '/speakers': Page,
+    '/program': Page,
     '/schedule': Page,
     '/information': Page,
     '/visa': Page,

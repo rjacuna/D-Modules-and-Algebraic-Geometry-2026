@@ -9,6 +9,7 @@
   // Map routes to markdown filenames under content/
   const routeToFile = {
     '/speakers': '/content/speakers.md',
+    '/program': '/content/program.md',
     '/schedule': '/content/schedule.md',
     '/information': '/content/information.md',
     '/visa': '/content/visa.md',

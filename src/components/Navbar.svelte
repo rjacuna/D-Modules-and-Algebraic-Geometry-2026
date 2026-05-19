@@ -4,6 +4,7 @@
   const links = [
     { path: '/', label: 'Home' },
     { path: '/speakers', label: 'Speakers' },
+    { path: '/program', label: 'Program' },
     { path: '/schedule', label: 'Schedule' },
     { path: '/information', label: 'Information' },
     { path: '/visa', label: 'Visa' },
