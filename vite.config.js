@@ -7,7 +7,7 @@ export default defineConfig({
     open: false
   },
   build: {
-    outDir: 'docs',
+    outDir: 'target',
     emptyOutDir: true,
     assetsDir: 'assets',
     rollupOptions: {
