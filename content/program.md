@@ -1,3 +1,9 @@
+# Rosie Shen
+
+Title: **Hodge theory and algebraic K-theory**
+
+Abstract: In this talk, we will discuss how to study the algebraic K-groups of a singular variety from the perspective of Hodge theory.
+
 # Matt Kerr
 
 Title: **Interpolating regulators, from Dirichlet to Beilinson**
@@ -13,16 +19,21 @@ Title: **Higher singularities and deformations of singular Fano and Calabi-Yau v
 
 Abstract: The recently developed theories of higher Du Bois and higher rational singularities provide a refined Hodge-theoretic framework for analyzing singular algebraic varieties. By probing deeper into the Hodge filtration, these conditions yield powerful vanishing results, which in turn control the deformation theory of mildly singular varieties. In this talk, I will review the foundations of these higher singularities and discuss their applications to the deformation of singular Fano and Calabi-Yau varieties, focusing on unobstructedness and smoothability. This is based on joint work with Robert Friedman.
 
+# Guido Bosco
+
+Title: **p-adic twistor D-modules**
+
+Abstract:
+
+In this talk, I will introduce a category of “twistor D-modules” on p-adic analytic varieties, drawing analogies with complex Hodge theory. I will explain how this category provides a framework for answering several questions in p-adic Hodge theory, and describe a refinement of the p-adic Riemann-Hilbert correspondence in this setting. A large part of the talk is based on joint work with Anschütz, Le Bras, Rodriguez Camargo, and Scholze.
+
 # Boris Tsygan
 
 Title: **Riemann-Roch for elliptic pairs, revisited**
 
-Abstract: An elliptic pair on a complex manifold is a pair $(\mathcal{M},F)$ of a coherent
-DX -module and an R-constructible sheaf whose singular supports intersect at a
-compact subset of the zero section in T∗X.The Riemann-Roch theorem for elliptic
-pairs, due to Schapira and Schneiders, states that the complex
-Γ•(M,F) = DR•(M) ⊗F
-is a perfect complex of C-modules and
+Abstract: An elliptic pair on a complex manifold is a pair $(\mathcal{M},\mathcal{F})$ of a coherent $\mathcal{D}_X}$-module and an $\mathbb{R}$-constructible sheaf whose singular supports intersect at a compact subset of the zero section in $T^*X$.The Riemann-Roch theorem for elliptic pairs, due to Schapira and Schneiders, states that the complex
+$$\Gamma^\bullet(\mathcal{M},\mathcal{F})=\text{DR}^\bullet(\mathcal{M})\otimes\mathcal{F}$$
+is a perfect complex of $\mathbb{C}$-modules and
 χ(Γ•(M,F)) =
 µeu(M) ∪µeu(F)
 T ∗ X
