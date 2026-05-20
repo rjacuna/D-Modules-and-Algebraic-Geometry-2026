@@ -1,5 +1,3 @@
-# Program
-
 # Matt Kerr
 
 Title: **Interpolating regulators, from Dirichlet to Beilinson**
@@ -14,3 +12,38 @@ Abstract:  Let X be an algebraic variety defined over Q.  The Beilinson conjectu
 Title: **Higher singularities and deformations of singular Fano and Calabi-Yau varieties**
 
 Abstract: The recently developed theories of higher Du Bois and higher rational singularities provide a refined Hodge-theoretic framework for analyzing singular algebraic varieties. By probing deeper into the Hodge filtration, these conditions yield powerful vanishing results, which in turn control the deformation theory of mildly singular varieties. In this talk, I will review the foundations of these higher singularities and discuss their applications to the deformation of singular Fano and Calabi-Yau varieties, focusing on unobstructedness and smoothability. This is based on joint work with Robert Friedman.
+
+# Boris Tsygan
+
+Title: **Riemann-Roch for elliptic pairs, revisited**
+
+Abstract: An elliptic pair on a complex manifold is a pair $(\mathcal{M},F)$ of a coherent
+DX -module and an R-constructible sheaf whose singular supports intersect at a
+compact subset of the zero section in T∗X.The Riemann-Roch theorem for elliptic
+pairs, due to Schapira and Schneiders, states that the complex
+Γ•(M,F) = DR•(M) ⊗F
+is a perfect complex of C-modules and
+χ(Γ•(M,F)) =
+µeu(M) ∪µeu(F)
+T ∗ X
+where µeu(M) and µeu(F) are microlocal Euler classes in middle cohomology of
+T∗X. Partial cases include the Atiyah-Singer index theorem, the Riemann-Roch-
+Hirzebruchtheorem, andDubson-Kashiwaratheoremsforconstructiblesheavesand
+holonomic D-modules.
+Can one find a Riemann-Roch style formula not for the Euler characteristic but
+forthecomplexΓ•(M,F) itself, moduloanequivalencerelationaslightaspossible?
+In other words: can one define another natural complex V•(M,F) together with a
+natural equivalence Γ•(M,F)∼
+−→V•(M,F), so that the equality
+χ(V•(M,F)) =
+µeu(M) ∪µeu(F)
+T ∗ X
+is manifestly true? How explicitly can one do that? Is the formula for V•(M,F)
+itself a result of some sort of integration of a local expression?
+Let us start with the observation that the Riemann-Roch formula of Schapira
+and Schneiders can be interpreted as a formula for the Hochschild homology class
+of Γ•(M,F). What about more delicate invariants, such as algebraic K-theory?
+For constructible sheaves, such a formula was obtained by Beilinson in 2005.
+IwilloutlineanapproachandstateafewconjecturesbasedonworksofSchapira-
+Schneiders, Beilinson and Patel, as well as on recent advances in infinity-categories
+and their localizing invariants, in particular noncommutative motives.
