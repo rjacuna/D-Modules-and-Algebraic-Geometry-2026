@@ -26,6 +26,7 @@
     "katex": "^0.16.47",
     "marked": "^5.1.0",
     "marked-katex-extension": "^5.1.8",
+    "marked-smartypants": "^1.1.12",
     "svelte": "^3.59.0",
     "svelte-spa-router": "^3.0.0"
   },
