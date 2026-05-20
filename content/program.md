@@ -32,9 +32,7 @@ In this talk, I will introduce a category of “twistor D-modules” on p-adic a
 Title: **Riemann-Roch for elliptic pairs, revisited**
 
 Abstract: An elliptic pair on a complex manifold is a pair $(\mathcal{M},\mathcal{F})$ of a coherent $\mathcal{D}_X$-module and an $\mathbb{R}$-constructible sheaf whose singular supports intersect at a compact subset of the zero section in $T^*X$.The Riemann-Roch theorem for elliptic pairs, due to Schapira and Schneiders, states that the complex
-
 $$\Gamma^\bullet(\mathcal{M},\mathcal{F})=\text{DR}^\bullet(\mathcal{M})\otimes\mathcal{F}$$
-
 is a perfect complex of $\mathbb{C}$-modules and
 χ(Γ•(M,F)) =
 µeu(M) ∪µeu(F)
