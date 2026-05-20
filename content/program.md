@@ -32,29 +32,21 @@ In this talk, I will introduce a category of “twistor D-modules” on p-adic a
 Title: **Riemann-Roch for elliptic pairs, revisited**
 
 Abstract: An elliptic pair on a complex manifold is a pair $(\mathcal{M},\mathcal{F})$ of a coherent $\mathcal{D}_X$-module and an $\mathbb{R}$-constructible sheaf whose singular supports intersect at a compact subset of the zero section in $T^*X$.The Riemann-Roch theorem for elliptic pairs, due to Schapira and Schneiders, states that the complex
+
 $$\Gamma^\bullet(\mathcal{M},\mathcal{F})=\text{DR}^\bullet(\mathcal{M})\otimes\mathcal{F}$$
+
 is a perfect complex of $\mathbb{C}$-modules and
-χ(Γ•(M,F)) =
-µeu(M) ∪µeu(F)
-T ∗ X
-where µeu(M) and µeu(F) are microlocal Euler classes in middle cohomology of
-T∗X. Partial cases include the Atiyah-Singer index theorem, the Riemann-Roch-
-Hirzebruchtheorem, andDubson-Kashiwaratheoremsforconstructiblesheavesand
-holonomic D-modules.
-Can one find a Riemann-Roch style formula not for the Euler characteristic but
-forthecomplexΓ•(M,F) itself, moduloanequivalencerelationaslightaspossible?
-In other words: can one define another natural complex V•(M,F) together with a
-natural equivalence Γ•(M,F)∼
-−→V•(M,F), so that the equality
-χ(V•(M,F)) =
-µeu(M) ∪µeu(F)
-T ∗ X
-is manifestly true? How explicitly can one do that? Is the formula for V•(M,F)
-itself a result of some sort of integration of a local expression?
-Let us start with the observation that the Riemann-Roch formula of Schapira
-and Schneiders can be interpreted as a formula for the Hochschild homology class
-of Γ•(M,F). What about more delicate invariants, such as algebraic K-theory?
-For constructible sheaves, such a formula was obtained by Beilinson in 2005.
-IwilloutlineanapproachandstateafewconjecturesbasedonworksofSchapira-
-Schneiders, Beilinson and Patel, as well as on recent advances in infinity-categories
-and their localizing invariants, in particular noncommutative motives.
+
+$$\chi(\Gamma^\bullet(\mathcal{M},\mathcal{F}))=\int_{T^* X}\mu\text{eu}(\mathcal{M})\cup\mu\text{eu}(\mathcal{F})$$
+
+where $\mu\text{eu}(\mathcal{M})$ and $\mu\text{eu}(\mathcal{F})$ are microlocal Euler classes in middle cohomology of $T^*X$. Partial cases include the Atiyah-Singer index theorem, the Riemann-Roch-Hirzebruchtheorem, and Dubson-Kashiwara theorems for constructible sheaves and holonomic D-modules.
+
+Can one find a Riemann-Roch style formula not for the Euler characteristic but for the complex $\Gamma^\bullet(\mathcal{M},\mathcal{F})$ itself, modulo an equivalence relation as light as possible? In other words: can one define another natural complex $V^\bullet(\mathcal{M},\mathcal{F})$ together with a natural equivalence $\Gamma^\bullet(\mathcal{M},\mathcal{F})\stackrightarrow{\sim}V^\bullet(\mathcal{M},\mathcal{F})$, so that the equality
+
+$$\chi(V^\bullet(\mathcal{M},\mathcal{F}))=\int_{T^* X}\mu\text{eu}(\mathcal{M})\cup\mu\text{eu}(\mathcal{F})$$
+
+is manifestly true? How explicitly can one do that? Is the formula for $V^\bullet(\mathcal{M},\mathcal{F})$ itself a result of some sort of integration of a local expression?
+
+Let us start with the observation that the Riemann-Roch formula of Schapira and Schneiders can be interpreted as a formula for the Hochschild homology class of $\Gamma^\bullet(\mathcal{M},\mathcal{F})$. What about more delicate invariants, such as algebraic K-theory? For constructible sheaves, such a formula was obtained by Beilinson in 2005.
+
+I will outline an approach and state a few conjectures based on works of Schapira-Schneiders, Beilinson and Patel, as well as on recent advances in infinity-categories and their localizing invariants, in particular noncommutative motives.
