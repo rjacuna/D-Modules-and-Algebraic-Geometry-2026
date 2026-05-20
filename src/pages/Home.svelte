@@ -24,12 +24,13 @@
   onMount(async () => {
     document.body.classList.add('home-bg')
 
+    const BASE = import.meta.env.BASE_URL
     const [titleMd, organizersMd, datesMd, locationMd, descriptionMd] = await Promise.all([
-      fetchMd('/content/title.md'),
-      fetchMd('/content/organizers.md'),
-      fetchMd('/content/dates.md'),
-      fetchMd('/content/location.md'),
-      fetchMd('/content/description.md')
+      fetchMd(BASE + 'content/title.md'),
+      fetchMd(BASE + 'content/organizers.md'),
+      fetchMd(BASE + 'content/dates.md'),
+      fetchMd(BASE + 'content/location.md'),
+      fetchMd(BASE + 'content/description.md')
     ])
 
     titleHtml = titleMd ? marked.parse(titleMd) : ''

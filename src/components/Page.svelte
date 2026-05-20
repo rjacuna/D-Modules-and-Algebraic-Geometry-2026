@@ -6,14 +6,16 @@
   // Disable deprecated behaviors (see marked docs)
   marked.setOptions({ mangle: false, headerIds: false })
 
-  // Map routes to markdown filenames under content/
+  // Map routes to markdown filenames under content/, prefixed with BASE_URL
+  // so they resolve under subpath deployments (e.g. GitHub Pages /<repo>/).
+  const BASE = import.meta.env.BASE_URL
   const routeToFile = {
-    '/speakers': '/content/speakers.md',
-    '/program': '/content/program.md',
-    '/schedule': '/content/schedule.md',
-    '/information': '/content/information.md',
-    '/visa': '/content/visa.md',
-    '/registration': '/content/registration.md'
+    '/speakers': BASE + 'content/speakers.md',
+    '/program': BASE + 'content/program.md',
+    '/schedule': BASE + 'content/schedule.md',
+    '/information': BASE + 'content/information.md',
+    '/visa': BASE + 'content/visa.md',
+    '/registration': BASE + 'content/registration.md'
   }
 
   let html = '<p>Loading...</p>'
