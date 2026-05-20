@@ -41,7 +41,7 @@ $$\chi(\Gamma^\bullet(\mathcal{M},\mathcal{F}))=\int_{T^* X}\mu\text{eu}(\mathca
 
 where $\mu\text{eu}(\mathcal{M})$ and $\mu\text{eu}(\mathcal{F})$ are microlocal Euler classes in middle cohomology of $T^*X$. Partial cases include the Atiyah-Singer index theorem, the Riemann-Roch-Hirzebruchtheorem, and Dubson-Kashiwara theorems for constructible sheaves and holonomic D-modules.
 
-Can one find a Riemann-Roch style formula not for the Euler characteristic but for the complex $\Gamma^\bullet(\mathcal{M},\mathcal{F})$ itself, modulo an equivalence relation as light as possible? In other words: can one define another natural complex $V^\bullet(\mathcal{M},\mathcal{F})$ together with a natural equivalence $\Gamma^\bullet(\mathcal{M},\mathcal{F})\stackrightarrow{\sim}V^\bullet(\mathcal{M},\mathcal{F})$, so that the equality
+Can one find a Riemann-Roch style formula not for the Euler characteristic but for the complex $\Gamma^\bullet(\mathcal{M},\mathcal{F})$ itself, modulo an equivalence relation as light as possible? In other words: can one define another natural complex $V^\bullet(\mathcal{M},\mathcal{F})$ together with a natural equivalence $\Gamma^\bullet(\mathcal{M},\mathcal{F})\xrightarrow{\sim}V^\bullet(\mathcal{M},\mathcal{F})$, so that the equality
 
 $$\chi(V^\bullet(\mathcal{M},\mathcal{F}))=\int_{T^* X}\mu\text{eu}(\mathcal{M})\cup\mu\text{eu}(\mathcal{F})$$
 
