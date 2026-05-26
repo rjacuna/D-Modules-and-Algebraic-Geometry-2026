@@ -60,3 +60,10 @@ Abstract: I will present the general framework envisioned by the physicist Broad
 Title: **Tautological rings: from CVHS to algebraic cycles**
 
 Abstract: Given a smooth algebraic variety S over the complex numbers, I will explain how to construct finitely generated subrings of its Chow ring using Hodge theory.
+
+# Christian Schnell
+
+Title: **Fourier-Mukai transforms and coherent-perverse symmetry for Lagrangian fibrations**
+
+Abstract: My talk is about Lagrangian fibrations on holomorphic symplectic manifolds, more precisely, about a curious relationship between bundles of holomorphic forms on the total space and certain perverse sheaves on the base, proposed by Maulik, Shen, and Yin in 2023.
+
