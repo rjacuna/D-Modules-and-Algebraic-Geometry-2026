@@ -50,3 +50,9 @@ is manifestly true? How explicitly can one do that? Is the formula for $V^\bulle
 Let us start with the observation that the Riemann-Roch formula of Schapira and Schneiders can be interpreted as a formula for the Hochschild homology class of $\Gamma^\bullet(\mathcal{M},\mathcal{F})$. What about more delicate invariants, such as algebraic K-theory? For constructible sheaves, such a formula was obtained by Beilinson in 2005.
 
 I will outline an approach and state a few conjectures based on works of Schapira-Schneiders, Beilinson and Patel, as well as on recent advances in infinity-categories and their localizing invariants, in particular noncommutative motives.
+
+# Claude Sabbah
+
+Title: D-modules and irregular Hodge filtration
+
+Abstract: I will present the general framework envisioned by the physicist Broadhurst and Roberts concerning the moments of Kloosterman sums. The main question is to construct a pure motive for these sums and compute their Hodge numbers. I will explain how the exponential Hodge theory of Kontsevich-Soibelman makes easier such a computation, by means of irregular Hodge numbers (joint work with J. Fresán and J.-D. Yu). I will also mention the extension to cubic sums (joint with J.-D. Yu). Lastly, I will consider the geometry of the irregular Hodge bundles, in particular vanishing theorems, in a more general setting.
