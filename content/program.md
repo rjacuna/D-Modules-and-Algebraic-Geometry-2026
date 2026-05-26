@@ -53,6 +53,12 @@ I will outline an approach and state a few conjectures based on works of Schapir
 
 # Claude Sabbah
 
-Title: D-modules and irregular Hodge filtration
+Title: **D-modules and irregular Hodge filtration**
 
 Abstract: I will present the general framework envisioned by the physicist Broadhurst and Roberts concerning the moments of Kloosterman sums. The main question is to construct a pure motive for these sums and compute their Hodge numbers. I will explain how the exponential Hodge theory of Kontsevich-Soibelman makes easier such a computation, by means of irregular Hodge numbers (joint work with J. Fresán and J.-D. Yu). I will also mention the extension to cubic sums (joint with J.-D. Yu). Lastly, I will consider the geometry of the irregular Hodge bundles, in particular vanishing theorems, in a more general setting.
+
+# Bruno Klingler
+
+Title: **Tautological rings: from CVHS to algebraic cycles**
+
+Abstract: Given a smooth algebraic variety S over the complex numbers, I will explain how to construct finitely generated subrings of its Chow ring using Hodge theory.
