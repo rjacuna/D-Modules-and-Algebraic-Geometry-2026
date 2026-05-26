@@ -1,10 +1,10 @@
-# Rosie Shen
+## Rosie Shen
 
 Title: **Hodge theory and algebraic K-theory**
 
 Abstract: In this talk, we will discuss how to study the algebraic K-groups of a singular variety from the perspective of Hodge theory.
 
-# Matt Kerr
+## Matt Kerr
 
 Title: **Interpolating regulators, from Dirichlet to Beilinson**
 
@@ -13,19 +13,19 @@ Abstract:  Let X be an algebraic variety defined over $\mathbb{Q}$.  The Beilins
   For simplicity, I will consider a families of varieties over the projective line.  (This means pairs of points in dimension 0, elliptic curves in dimension 1, and so on.)  I will discuss how to construct generalized cycles on the total space and compute their fiberwise regulators (i.e. generalized Abel-Jacobi mappings) using toric geometry and Hadamard products.  The main point will be that these "regulator functions" simultaneously give solutions to inhomogeneous differential equations appearing in mirror symmetry, and specialize to the expected analytic invariants at rational points.
   This talk is based on a joint paper with R. de Jeu, N. Dummigan, and V. Golyshev, as well as earlier papers with Golyshev and a forthcoming result with D. Akman.
 
-# Radu Laza
+## Radu Laza
 
 Title: **Higher singularities and deformations of singular Fano and Calabi-Yau varieties**
 
 Abstract: The recently developed theories of higher Du Bois and higher rational singularities provide a refined Hodge-theoretic framework for analyzing singular algebraic varieties. By probing deeper into the Hodge filtration, these conditions yield powerful vanishing results, which in turn control the deformation theory of mildly singular varieties. In this talk, I will review the foundations of these higher singularities and discuss their applications to the deformation of singular Fano and Calabi-Yau varieties, focusing on unobstructedness and smoothability. This is based on joint work with Robert Friedman.
 
-# Guido Bosco
+## Guido Bosco
 
 Title: **p-adic twistor D-modules**
 
 Abstract: In this talk, I will introduce a category of “twistor D-modules” on p-adic analytic varieties, drawing analogies with complex Hodge theory. I will explain how this category provides a framework for answering several questions in p-adic Hodge theory, and describe a refinement of the p-adic Riemann-Hilbert correspondence in this setting. A large part of the talk is based on joint work with Anschütz, Le Bras, Rodriguez Camargo, and Scholze.
 
-# Boris Tsygan
+## Boris Tsygan
 
 Title: **Riemann-Roch for elliptic pairs, revisited**
 
@@ -49,19 +49,19 @@ Let us start with the observation that the Riemann-Roch formula of Schapira and 
 
 I will outline an approach and state a few conjectures based on works of Schapira-Schneiders, Beilinson and Patel, as well as on recent advances in infinity-categories and their localizing invariants, in particular noncommutative motives.
 
-# Claude Sabbah
+## Claude Sabbah
 
 Title: **D-modules and irregular Hodge filtration**
 
 Abstract: I will present the general framework envisioned by the physicist Broadhurst and Roberts concerning the moments of Kloosterman sums. The main question is to construct a pure motive for these sums and compute their Hodge numbers. I will explain how the exponential Hodge theory of Kontsevich-Soibelman makes easier such a computation, by means of irregular Hodge numbers (joint work with J. Fresán and J.-D. Yu). I will also mention the extension to cubic sums (joint with J.-D. Yu). Lastly, I will consider the geometry of the irregular Hodge bundles, in particular vanishing theorems, in a more general setting.
 
-# Bruno Klingler
+## Bruno Klingler
 
 Title: **Tautological rings: from CVHS to algebraic cycles**
 
 Abstract: Given a smooth algebraic variety S over the complex numbers, I will explain how to construct finitely generated subrings of its Chow ring using Hodge theory.
 
-# Christian Schnell
+## Christian Schnell
 
 Title: **Fourier-Mukai transforms and coherent-perverse symmetry for Lagrangian fibrations**
 
