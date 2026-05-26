@@ -23,9 +23,7 @@ Abstract: The recently developed theories of higher Du Bois and higher rational 
 
 Title: **p-adic twistor D-modules**
 
-Abstract:
-
-In this talk, I will introduce a category of “twistor D-modules” on p-adic analytic varieties, drawing analogies with complex Hodge theory. I will explain how this category provides a framework for answering several questions in p-adic Hodge theory, and describe a refinement of the p-adic Riemann-Hilbert correspondence in this setting. A large part of the talk is based on joint work with Anschütz, Le Bras, Rodriguez Camargo, and Scholze.
+Abstract: In this talk, I will introduce a category of “twistor D-modules” on p-adic analytic varieties, drawing analogies with complex Hodge theory. I will explain how this category provides a framework for answering several questions in p-adic Hodge theory, and describe a refinement of the p-adic Riemann-Hilbert correspondence in this setting. A large part of the talk is based on joint work with Anschütz, Le Bras, Rodriguez Camargo, and Scholze.
 
 # Boris Tsygan
 
