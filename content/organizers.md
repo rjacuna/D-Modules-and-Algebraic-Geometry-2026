@@ -1,1 +1,1 @@
-RJ Acuña, Thomas Bitoun, and Mingyi Zhang
+RJ Acuña, Thomas Bitoun
