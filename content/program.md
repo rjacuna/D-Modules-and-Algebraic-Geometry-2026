@@ -65,5 +65,5 @@ Abstract: Given a smooth algebraic variety S over the complex numbers, I will ex
 
 Title: **Fourier-Mukai transforms and coherent-perverse symmetry for Lagrangian fibrations**
 
-Abstract: My talk is about Lagrangian fibrations on holomorphic symplectic manifolds, more precisely, about a curious relationship between bundles of holomorphic forms on the total space and certain perverse sheaves on the base, proposed by Maulik, Shen, and Yin in 2023.
+Abstract: My talk is about Lagrangian fibrations on holomorphic symplectic manifolds, more precisely, about a curious relationship between bundles of holomorphic forms on the total space and certain perverse sheaves on the base, proposed by Maulik, Shen, and Yin in 2023. 
 
