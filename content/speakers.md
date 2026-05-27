@@ -1,5 +1,6 @@
 ## Tentative Speakers
 
+- Guido Bosco
 - Matt Kerr
 - Bruno Klinger
 - Radu Laza
@@ -7,6 +8,4 @@
 - Christian Schnell
 - Wanchun (Rosie) Shen
 - Boris Tsygan
-- Guido Bosco
 
-More to be confirmed
