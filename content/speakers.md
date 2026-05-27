@@ -1,4 +1,4 @@
-## Tentative Speakers
+## Speakers
 
 - Guido Bosco
 - Matt Kerr
