@@ -1,5 +1,3 @@
-# Schedule
-
 ## 6.1 Monday
 
 10:00-12:00 **Bruno Klingler** Tautological rings: from CVHS to algebraic cycles
