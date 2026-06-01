@@ -18,6 +18,8 @@
 
 ## 6.4 Thursday
 
+**Banquet**
+
 ## 6.5 Friday
 
 10:00-12:00 **Christian Schnell** Fourier-Mukai transforms and coherent-perverse symmetry for Lagrangian fibrations
